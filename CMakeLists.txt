@@ -2,6 +2,8 @@ cmake_minimum_required(VERSION 3.1.3 FATAL_ERROR)
 
 project(gl3w)
 
+message("Building ${PROJECT_NAME}")
+
 set(CMAKE_VERBOSE_MAKEFILE false)
 set(CMAKE_POSITION_INDEPENDENT_CODE ON) # -fPIC
 
